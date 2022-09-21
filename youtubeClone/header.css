@@ -105,3 +105,69 @@
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     width: 0;
 }
+
+.search-image {
+    height: 25px;
+    margin-top: 5px;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+}
+
+.voice-search-icon {
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(246, 246, 246);
+}
+
+.voice-image {
+    height: 24px;
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.upload-button {
+    height: 24px;
+}
+
+.youtube-apps-button {
+    height: 24px;
+}
+
+.notification-button {
+    height: 24px;
+}
+
+.notifications-icon-container {
+    position: relative;
+}
+
+.notifications-count {
+    position: absolute;
+    right: -4px;
+    top: -2px;
+    font-size: 11px;
+    font-family: Roboto, Arial;
+    background-color: rgb(212, 3, 3);
+    color: white;
+    border-radius: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.my-channel {
+    height: 32px;
+    border-radius: 16px;
+}
